@@ -31,4 +31,6 @@ rails generate controller ...etc
 
 Overall, I’ve really enjoyed building this rails project. It was intimidating at first but once everything pulled together into a website, it was truly astonishing and inspiring.
 
+![](https://i.imgur.com/4ZNRH0W.gif)
+
 
