@@ -18,7 +18,9 @@ def create
         @review.user_id = session[:user_id]
         @review.location_id = @location.id
         @review.restaurant_id = @restaurant.id
-
+				
+				
+![](https://media0.giphy.com/media/Wsju5zAb5kcOfxJV9i/giphy.gifhttp://)
 
 
 
