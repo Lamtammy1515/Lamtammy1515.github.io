@@ -22,7 +22,7 @@ def create
 
 
 
-Howver, one of the things I enjoyed most about Ruby on Rails is the generator commands they offer. It saved me so much time from having to manually create files/folders/migrations which I found extremely helpful. If I were to make a mistake in my migrations and of course, I always do, it can be undone with just a simple command in the terminal. 
+However, one of the things I enjoyed most about Ruby on Rails is the generator commands they offer. It saved me so much time from having to manually create files/folders/migrations which I found extremely helpful. If I were to make a mistake in my migrations and of course, I always do, it can be undone with just a simple command in the terminal. 
 
 rails generate migration table_name 
 rails d migration table_name
