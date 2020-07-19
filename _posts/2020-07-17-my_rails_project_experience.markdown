@@ -20,7 +20,7 @@ def create
         @review.restaurant_id = @restaurant.id
 				
 				
-![](https://media0.giphy.com/media/Wsju5zAb5kcOfxJV9i/giphy.gifhttp://)
+![](https://i.imgur.com/HaVa1kf.gif)
 
 
 
