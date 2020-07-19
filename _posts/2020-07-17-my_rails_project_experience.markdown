@@ -10,7 +10,7 @@ My rails application doesn't exactly look the greatest but I can now proudly say
 
 ![](https://i.imgur.com/Cb426qO.gif)
 
-Like many, I had a lot of ups and down doing this rails project & one of the few issues I came across was with my review’s create form. My form is nested with a total of three different tables which was the restaurant, location & review’s table. Saving & Creating the new instance for a review was fine but the biggest issue I had was trying to call the nested attributes in the form to display it in my HTML files. I updated my strong paramenters in the review’s controller & even used “accepts_nested_attributes_for” method in my review model class but it still was not working. After long hours and with the help of my cohort coach, I realized I had to add these lines to the create method located in review’s controller for both @restaurant & @location. That definitely did the trick and displayed all the nested attributes wonderfully in my HTML files. 
+Like many, I had a lot of ups and down doing this rails project & one of the few issues I came across was with my review’s create form. My form is nested with a total of three different tables which was the restaurant, location & review’s table. Saving & Creating the new instance for a review was fine but the biggest issue I had was trying to call the nested attributes in the form to display it in my HTML files. I updated my strong paramenters in the review’s controller & even used “accepts_nested_attributes_for” method in my review model class but it still was not working. After long hours and with the help of my cohort coach, I realized I had to add these lines to the create method located in review’s controller for both @restaurant & @location. 
 
 
 def create 
@@ -21,6 +21,10 @@ def create
         @review.location_id = @location.id
         @review.restaurant_id = @restaurant.id
 				
+That definitely did the trick and displayed all the nested attributes wonderfully in my HTML files. 
+
+![](https://i.imgur.com/4ZNRH0W.gif)
+
 
 However, one of the things I enjoyed most about Ruby on Rails is the generator commands they offer. It saved me so much time from having to manually create files/folders/migrations which I found extremely helpful. If I were to make a mistake in my migrations and of course, I always do, it can be undone with just a simple command in the terminal. 
 
@@ -30,7 +34,5 @@ rails generate model
 rails generate controller ...etc 
 
 Overall, I’ve really enjoyed building this rails project. It was intimidating at first but once everything pulled together into a website, it was truly astonishing and inspiring.
-
-![](https://i.imgur.com/4ZNRH0W.gif)
 
 
