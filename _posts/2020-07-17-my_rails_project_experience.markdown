@@ -6,7 +6,9 @@ permalink:  my_rails_project_experience
 ---
 
 
-My rails application doesn't exactly look the greatest but I can now proudly say I’ve finally built my first rails application from SCRATCH! This project was quite challenging, and I did spend a myriad of hours debugging but I learned a lot out of it and the feeling after fixing a bug is absolutely satisfying. Even when I have no idea why my code works but it works! LOL. 
+My rails application doesn't exactly look the greatest but I can now proudly say I’ve finally built my first rails application from SCRATCH! This project was quite challenging, and I did spend a myriad of hours debugging but I learned a lot out of it and the feeling after fixing a bug is absolutely satisfying. Even when I have no idea why my code works but it works!
+
+![](https://i.imgur.com/oXpKqZU.jpeghttp://)
 
 Like many, I had a lot of ups and down doing this rails project & one of the few issues I came across was with my review’s create form. My form is nested with a total of three different tables which was the restaurant, location & review’s table. Saving & Creating the new instance for a review was fine but the biggest issue I had was trying to call the nested attributes in the form to display it in my HTML files. I updated my strong paramenters in the review’s controller & even used “accepts_nested_attributes_for” method in my review model class but it still was not working. After long hours and with the help of my cohort coach, I realized I had to add these lines to the create method located in review’s controller for both @restaurant & @location. That definitely did the trick and displayed all the nested attributes wonderfully in my HTML files. 
 
@@ -19,10 +21,6 @@ def create
         @review.location_id = @location.id
         @review.restaurant_id = @restaurant.id
 				
-				
-![](https://i.imgur.com/HaVa1kf.gif)
-
-
 
 However, one of the things I enjoyed most about Ruby on Rails is the generator commands they offer. It saved me so much time from having to manually create files/folders/migrations which I found extremely helpful. If I were to make a mistake in my migrations and of course, I always do, it can be undone with just a simple command in the terminal. 
 
