@@ -17,7 +17,7 @@ let randomFoods = [];
         };
 ```
 
-This code above however was only able to render three entrees across ALL foods. What I wanted was for it to generate an entree from each meal(breakfast, lunch and dinner). It took some time refactoring but in the end, I was able display what I was targetting into the DOM. Now this code below, located in my appContainer class is what did the trick.
+This code above however was only able to render three entrees across ALL foods by using the for loop. What I wanted was for it to generate an entree from each meal(breakfast, lunch and dinner). It took some time refactoring but in the end, I was able display what I was targetting into the DOM. Now this code below, located in my appContainer class is what did the trick.
 
 ```
 let randomFoods = [];
@@ -27,7 +27,7 @@ let randomFoods = [];
 ```
 
 
-I iterated through the meals stored in appContainer class. For each of those meals(breakfast, lunch & dinner), I'm grabbing an entree from each meal. I also had to build a separate class method called "byMeal" in my food.js file. 
+I iterated through the meals stored in the appContainer class by using the forEach function. For each of those meals(breakfast, lunch & dinner), I'm grabbing an entree from each meal. I also had to build a separate class method called "byMeal" in my food.js file. 
 
 
 ```
