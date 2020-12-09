@@ -26,6 +26,7 @@ let randomFoods = [];
         });
 ```
 
+
 I iterated through the meals stored in appContainer class. For each of those meals(breakfast, lunch & dinner), I'm grabbing an entree from each meal. I also had to build a separate class method called "byMeal" in my food.js file. 
 
 
@@ -33,7 +34,7 @@ I iterated through the meals stored in appContainer class. For each of those mea
   static byMeal(mealMeal) {
       return AppContainer.foods.filter(food => food.meal.meal === mealMeal)
     }
-		```
+```
 		
 This class method "byMeal" takes in a argument of meal. What this method does is it iterates through the foods stored in appContainer and filters each food entree by its meal based on the meal times. 
 
