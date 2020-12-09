@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails & Javascript Project 4!"
-date:       2020-12-09 21:19:41 +0000
+date:       2020-12-09 16:19:42 -0500
 permalink:  rails_and_javascript_project_4
 ---
 
@@ -24,7 +24,7 @@ let randomFoods = [];
         AppContainer.meals.forEach(meal => {
             randomFoods.push(Food.byMeal(meal.meal)[Math.floor(Math.random()*Food.byMeal(meal.meal).length)])
         });
-				```
+```
 
 I iterated through the meals stored in appContainer class. For each of those meals(breakfast, lunch & dinner), I'm grabbing an entree from each meal. I also had to build a separate class method called "byMeal" in my food.js file. 
 
