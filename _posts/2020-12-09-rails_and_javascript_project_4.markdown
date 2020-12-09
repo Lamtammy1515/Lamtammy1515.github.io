@@ -34,7 +34,8 @@ I iterated through the meals stored in appContainer class. For each of those mea
   static byMeal(mealMeal) {
       return AppContainer.foods.filter(food => food.meal.meal === mealMeal)
     }
-```
+  ```
+
 		
 This class method "byMeal" takes in a argument of meal. What this method does is it iterates through the foods stored in appContainer and filters each food entree by its meal based on the meal times. 
 
