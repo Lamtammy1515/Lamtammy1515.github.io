@@ -60,7 +60,7 @@ I invoked the class method "byMeal" into this line of code above and I was then 
         }
   ```
 	
-This function above, located inside of the MealPlan class(mealPlan.js file) retrieves the three random entrees from each meal which then instantiates the new random meal plan for us, populates them into the DOM and as well as deleting them from the select options once they are rendered.
+This function above, located inside of the MealPlan class(mealPlan.js file) retrieves the three random entrees from each meal which then instantiates the new random meal plan for us, populates them into the DOM and as well as deleting them from the select options once the meal plan get displayed.
 
 Overall, this project was definitely new and different in my perspective. I'm just glad I got to experience the ups and downs of this project. I definitely learned a couple of new things from this project about Javascript along the way too. Unfortunately, I did not focus too much on CSS as I was running out of time but it turned out somewhat okay I suppose....
 
