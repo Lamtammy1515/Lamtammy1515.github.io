@@ -52,7 +52,7 @@ I invoked the class method "byMeal" into this line of code above and I was then 
          //generate random foods
          const randomFoods = AppContainer.generateRandomFoods();
 
-        // instantiate a mealplan instance with the foods
+        // instantiate a mealplan instance with the random foods
         new MealPlan(randomFoods);
         
         // make fetch request to delete foods from db (IT'S TRIGGERING IT)
