@@ -38,7 +38,7 @@ This is the phase that happens when a state or prop changes.
 The unmounting phase is when a component gets detroyed and removed from the DOM. 
 * componentWillUnmount
 
-# The 5 Common Lifecycle Methods# 
+# The 5 Common Lifecycle Methods
 **1. Constructor**
 
 The constructor is **always** the first lifecycle method. The reason for that is because the constructor gets triggered whenever we create a new instance of a class. The only things we do in the constructor is to set up the initial state and as well, we can bind the key "this" to our function so that the component has access to the state by using "this.state". 
