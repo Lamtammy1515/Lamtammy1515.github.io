@@ -61,7 +61,7 @@ The componentDidUpdate method gets invoked whenever an update occurs or whenever
 This method is used to destroy and remove a component from the DOM.
 
 
-Hopefully, this was somewhat helpful to get you started in learning about lifecycles. Aside from these methods I've talked about above, there a much more lifecycle methods that React offers so I recommend exploring other different lifecycle methods! I've also linked a couple of articles below. 
+Hopefully, this was somewhat helpful to get you started in learning about lifecycles. Aside from these methods I've talked about above, there a much more lifecycle methods that React offers so I recommend exploring other different lifecycle methods! I've also linked two of articles below that might help as well. 
 
 
 **Resources:**
