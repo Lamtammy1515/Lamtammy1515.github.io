@@ -16,24 +16,24 @@ Let's start from the beginning!  A component's lifecycle basically begins when a
  
 Before I get into to details about these methods, I'm going to talk a little bit about the different phases in a lifecycle. 
 
-1. initialization Phase: 
+**initialization Phase: **
 
 The initialization phase is when we have to define the states/props before the component gets mounted into the DOM which is generally done inside the constructor method.
 * constructor
 
-2. Mounting Phase: 
+**Mounting Phase: **
 
 This phase occurs when the component is rendered into the DOM.
 * render
 * componentDidMount
 
-3. Updating Phase: 
+**Updating Phase: **
 
 This is the phase that happens when a state or prop changes.
 * render
 * componentDidUpdate
 
-4. Unmounting Phase: 
+**Unmounting Phase: **
 
 The unmounting phase is when a component gets detroyed and removed from the DOM. 
 * componentWillUnmount
@@ -45,7 +45,7 @@ The unmounting phase is when a component gets detroyed and removed from the DOM.
 
 The constructor is **always** the first lifecycle method that gets invokes. The reason for that is because the constructor gets triggered whenever we create a new instance of a class. The only things we do in the constructor is to set up the initial state and as well, we can bind the key "this" to our function so that the component has access to the state by using "this.state". 
 
-**1. Render**
+**2. Render**
 
 The render method is the only method required inside of a class component. Also, the render method should always be pure meaning that we should never modify the state from within the method. Lastly, this method will run anytime the state or prop changes. 
 
