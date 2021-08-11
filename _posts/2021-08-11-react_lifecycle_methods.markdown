@@ -38,6 +38,8 @@ This is the phase that happens when a state or prop changes.
 The unmounting phase is when a component gets detroyed and removed from the DOM. 
 * componentWillUnmount
 
+
+
 # The 5 Common Lifecycle Methods
 **1. Constructor**
 
