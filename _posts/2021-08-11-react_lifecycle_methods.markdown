@@ -16,7 +16,7 @@ Let's start from the beginning!  A component's lifecycle basically begins when a
  
 Before I get into to details about these methods, I'm going to talk a little bit about the different phases in a lifecycle. 
 
-**initialization Phase**
+**Initialization Phase**
 
 The initialization phase is when we have to define the states/props before the component gets mounted into the DOM which is generally done inside the constructor method.
 * constructor
