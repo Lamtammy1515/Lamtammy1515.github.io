@@ -55,13 +55,13 @@ The componentDidMount method is a place where you can make api calls to fetch da
 
 **4. componentDidUpdate**
 
-The componentDidUpdate method gets invoked whenever an update occurs or whenever a render method methodgets invoked, EXCEPT for when it is the initial render. ComponentDidUpdate can also accept three arguments if necessary, which are the *previous props*, *previous state* and *snapshot*([getSnapshotBeforeUpdate](https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)). SetState can also be used within this method but it has to be wrapped in a condition to avoid infinite loops. 
+The componentDidUpdate method gets invoked whenever an update occurs or whenever a render method method gets invoked, EXCEPT for when it is the initial render. ComponentDidUpdate can also accept three arguments if necessary, which are the *previous props*, *previous state* and *snapshot*([getSnapshotBeforeUpdate](https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)). SetState can also be used within this method but it has to be wrapped in a condition to avoid infinite loops. 
 
 **5. componentWillUnmount**
 This method is used to destroy and remove a component from the DOM.
 
 
-Hopefully, this was somewhat helpful to get you started in learning about lifecycles. Aside from these methods I've talked about above, there a much more lifecycle methods that React offers so I recommend exploring more on those different lifecycle methods! I've also linked a couple of articles below. 
+Hopefully, this was somewhat helpful to get you started in learning about lifecycles. Aside from these methods I've talked about above, there a much more lifecycle methods that React offers so I recommend exploring other different lifecycle methods! I've also linked a couple of articles below. 
 
 
 **Resources:**
