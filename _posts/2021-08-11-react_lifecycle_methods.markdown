@@ -16,28 +16,27 @@ Let's start from the beginning!  A component's lifecycle basically begins when a
  
 Before I get into to details about these methods, I'm going to talk a little bit about the different phases in a lifecycle. 
 
-**1. initialization Phase: **
+1. initialization Phase: 
 
 The initialization phase is when we have to define the states/props before the component gets mounted into the DOM which is generally done inside the constructor method.
 * constructor
 
-**2. Mounting Phase: **
+2. Mounting Phase: 
 
 This phase occurs when the component is rendered into the DOM.
 * render
 * componentDidMount
 
-**3. Updating Phase: **
+3. Updating Phase: 
 
 This is the phase that happens when a state or prop changes.
 * render
 * componentDidUpdate
 
-**4. Unmounting Phase: **
+4. Unmounting Phase: 
 
 The unmounting phase is when a component gets detroyed and removed from the DOM. 
 * componentWillUnmount
-
 
 # The 5 Common Lifecycle Methods# 
 **1. Constructor**
